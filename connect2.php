@@ -18,7 +18,7 @@ $myquery="INSERT INTO `users` (`fname`, `lname`, `dprtmnt`, `datee`, `uage`,`gnd
 VALUES ('$firstName','$lastName', '$departmantal', '$datetime','$umri','$jinsia')";
 $result= mysqli_query($conn,$myquery);
 if ($result===true) {
-	echo "well done";
+	echo "well done.";
 }
 else{
 	echo "bad work";
